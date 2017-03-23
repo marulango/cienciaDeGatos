@@ -34,6 +34,18 @@ function stateLabels() {
     }
 }
 
+function legend() {
+    noStroke()
+    fill(brand[3])
+    rect(900, 40, 10, 10)
+    fill(brand[1])
+    rect(900, 10, 10, 10)
+    fill(130)
+    text('Hogares con gasto en mascotas', 920, 50)
+    text('Total de Hogares', 920, 20)
+    
+}
+
 function setup() {
     createCanvas(1200, 800)
 }
@@ -41,7 +53,8 @@ function setup() {
 function draw() {
     totalPopBars()
     totalPetsBars()
-    stateLabels()
+    legend()
+    stateLabels() //Al final porque translate :v
     noLoop()
 }
 
