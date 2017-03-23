@@ -30,15 +30,6 @@
 		"sC": 0,
 		"tS": 0
 		},
-	"\/js\/grafica.min.js": {
-		"ft": 64,
-		"mi": 0,
-		"oA": 1,
-		"oAP": "\/js\/grafica.min-min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
 	"\/js\/p5.min.js": {
 		"ft": 64,
 		"mi": 0,
