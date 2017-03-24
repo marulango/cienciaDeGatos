@@ -1,18 +1,10 @@
-var barWidth = 30
-var sunsetOrange = '#FF883E'
-var clearedGreen = '#79DD15'
-var brand = ['#EF2B4C','#FF3E5F', '#FF7190', '#FF9CB6', '#FFC7D8']
-var guidanceBlue = '#3F91FF'
-var main = '#939598'
-
-
 function totalPopBars() {
-    for (var i = 0; i < nombreEstado.length; i++) {
-        stroke(brand[1])
-        var xPosition = (barWidth * i + 10)
-        fill(brand[3])
-        rect(xPosition, 600, 20, -poblacionTotal[i])
-    }    
+        for (var i = 0; i < nombreEstado.length; i++) {
+            stroke(brand[1])
+            var xPosition = (barWidth * i + 10)
+            fill(brand[3])
+            rect(xPosition, 600, 20, -poblacionTotal[i])
+        }    
 }
 
 function totalPetsBars() {
@@ -24,6 +16,13 @@ for (var i = 0; i < statePets.length; i++) {
     }
 }
 
+function percentBar() {
+    // Primero, deberías ponerle grid c:
+}
+
+function grid() {
+    
+}
 function stateLabels() {
     fill(130)
     rotate(1.5707963268) //radianes porque YOLO
@@ -43,7 +42,6 @@ function legend() {
     fill(130)
     text('Hogares con gasto en mascotas', 920, 50)
     text('Total de Hogares', 920, 20)
-    
 }
 
 function setup() {
