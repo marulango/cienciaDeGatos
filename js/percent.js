@@ -28,7 +28,7 @@ function percentBars() {
 for (var i = 0; i < statePets.length; i++) {
         stroke(brand[1])
         var yPosition = ( barWidth * i + 20 )
-        statePets.sort(function(a, b) {return b-a})
+        //statePets.sort(function(a, b) {return b-a}) Ponle el nombre al array para que no te confundas :v
         fill(brand[1])
         rect(0, yPosition + 820, statePets[i], 20)
     }
