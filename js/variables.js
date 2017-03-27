@@ -12,6 +12,9 @@ var poblacionTotal = []
 var percent = []
 var yLabel = []
 var yLabelValue = []
+var percentBar = []
+var xLabel = []
+var xLabelValue = []
 
 for (var key in hogares) {
     var estado = hogares[key]
@@ -43,6 +46,25 @@ for (var key in hogares) {
 }
 
 for (var i = 0; i < statePets.length; i++) {
-    var puchi = Math.round(statePets[i] / poblacionTotal[i] * 100)
-    percent.push(puchi)
+
+    var percentile = Math.round(statePets[i] * 100 / poblacionTotal[i] )
+    percent.push(percentile)
+    percentBar.push([nombreEstado[i], percent[i]])
+    var totalPop = poblacionTotal.reduce((a, b) => a + b, 0);
+    var totalPets = statePets.reduce((a, b) => a + b, 0);
+    var percentPets =  totalPets * 100 / totalPop
+    var percentPets = percentPets.toFixed(2)
 }
+
+var percentCats = ((30 / 100 * percentPets))
+var singleLadiesPercent = solteros.mujeres.people / solteros.muestraTotal.people * 100
+var singleDudesPercent = solteros.hombres.people / solteros.muestraTotal.people * 100
+var singleDudesPercent = singleDudesPercent.toFixed(2)
+var singleLadiesPercent = singleLadiesPercent.toFixed(2)
+
+var crazyCatLady = singleLadiesPercent * 100 / percentCats
+var crazyCatDude = singleDudesPercent * 100 / percentCats
+
+
+
+

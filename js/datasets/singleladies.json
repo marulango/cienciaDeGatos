@@ -1,0 +1,7 @@
+var solteros = [
+  {
+    "total": {"singles": 32751525, "entidad": "pais"},
+    "mujeres": {"singles": 15968306, "entidad": "pais"},
+    "hombres": {"singles": 16783219, "entidad": "pais"}
+  }
+]

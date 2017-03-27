@@ -61,7 +61,7 @@ function legend() {
     textAlign(CENTER)
     textStyle(BOLD)
     textSize(20)
-    text('Gasto en mascotas por hogar', 500, 0)
+    text('Gasto en mascotas por hogar (ENGASTO 2012)', 500, 0)
     textStyle(NORMAL)
     textSize(16)
     textAlign(CENTER)
