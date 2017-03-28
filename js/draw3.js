@@ -3,9 +3,8 @@ function setup() {
 }
 
 function draw() {
-    percentGrid()
-    percentBars()
-    compareCatPersons()
-    percentLegend()
+    grid()
+    bars()
+    legend()
     noLoop()
 }

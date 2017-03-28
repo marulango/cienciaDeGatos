@@ -1,8 +1,8 @@
 var barWidth = 30
 var sunsetOrange = '#FF883E'
-var clearedGreen = '#79DD15'
+var clearedGreen = ['#79DD15', '#97EA2D', '#A8F43D']
 var brand = ['#EF2B4C','#FF3E5F', '#FF7190', '#FF9CB6', '#FFC7D8']
-var guidanceBlue = '#3F91FF'
+var guidanceBlue = ['#3F91FF', '#61ADFF', '#7DBBFF']
 var main = '#939598'
 
 
@@ -57,14 +57,25 @@ for (var i = 0; i < statePets.length; i++) {
 }
 
 var percentCats = ((30 / 100 * percentPets))
+var percentCats = percentCats.toFixed(2)
 var singleLadiesPercent = solteros.mujeres.people / solteros.muestraTotal.people * 100
 var singleDudesPercent = solteros.hombres.people / solteros.muestraTotal.people * 100
 var singleDudesPercent = singleDudesPercent.toFixed(2)
 var singleLadiesPercent = singleLadiesPercent.toFixed(2)
 
-var crazyCatLady = singleLadiesPercent * 100 / percentCats
-var crazyCatDude = singleDudesPercent * 100 / percentCats
+var crazyCatLady = singleLadiesPercent / 1.30
+var crazyCatDude = singleDudesPercent / 1.30
+var crazyCatDude = crazyCatDude.toFixed(2)
+var crazyCatLady = crazyCatLady.toFixed(2)
 
+var widowLady = viudos.mujeres.people / viudos.muestraTotal.people  * 100
+var widowDude = viudos.hombres.people / viudos.muestraTotal.people  * 100
+var widowLady = widowLady.toFixed(2)
+var widowDude = widowDude.toFixed(2)
 
+var widowCatLady = widowLady / 1.30
+var widowCatLady = widowCatLady.toFixed(2)
+var widowCatDude = widowDude / 1.30
+var widowCatDude = widowCatDude.toFixed(2)
 
 

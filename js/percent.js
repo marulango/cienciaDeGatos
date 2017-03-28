@@ -1,5 +1,5 @@
 percentBar.sort(function(a, b){return b[1]-a[1]})
-function percentGrid() {
+function grid() {
     fill(130)
     for (var i = 0; i < percentBar.length; i++) {
         var yLabelLength = 30
@@ -13,13 +13,13 @@ function percentGrid() {
         xLabelValues.toString()
         fill(160)
         stroke(190)
-        line( 100*i, 780, 100*i, 1740)
+        line( 100 * i, 780, 100 * i, 1740)
         noStroke()
         text(xLabelValues, 100 * i + 5, 1760)
     }
 }
 
-function percentBars() {
+function bars() {
     for (var i = 0; i < percentBar.length; i++) {
         var yLabelLength = ( barWidth * i + 20 )
         fill(brand[1])
@@ -27,7 +27,7 @@ function percentBars() {
     }
 }
 
-function percentLegend() {
+function legend() {
     textStyle(NORMAL)
     textSize(16)
     textAlign(CENTER)

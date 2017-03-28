@@ -9,6 +9,12 @@
 	],
 "creatorBuild": "25704",
 "files": {
+	"\/compare.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/compare.html",
+		"oF": 0
+		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -21,6 +27,15 @@
 		"oAP": "\/js\/.gitignore",
 		"oF": 0
 		},
+	"\/js\/compare.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/js\/compare-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"\/js\/datasets\/mascotasphogar.js": {
 		"ft": 64,
 		"mi": 0,
@@ -30,11 +45,63 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/js\/datasets\/nacimientos.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/js\/datasets\/nacimientos-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/js\/datasets\/singleladies.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/js\/datasets\/singleladies-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/js\/datasets\/singlepeople.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/js\/datasets\/singlepeople-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/js\/datasets\/widows.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/js\/datasets\/widows-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"\/js\/draw.js": {
 		"ft": 64,
 		"mi": 0,
 		"oA": 1,
 		"oAP": "\/js\/draw-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/js\/draw2.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/js\/draw2-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/js\/draw3.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/js\/draw3-min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -66,6 +133,15 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/js\/singlewidow.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/js\/singlewidow-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"\/js\/variables.js": {
 		"ft": 64,
 		"mi": 0,
@@ -74,6 +150,12 @@
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
+		},
+	"\/widow.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/widow.html",
+		"oF": 0
 		}
 	},
 "hooks": [
